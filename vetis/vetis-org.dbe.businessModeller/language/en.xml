@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language>
+	<factTypes>
+		<associative_fact_type>
+			<verb>
+				<direction1>provides</direction1>
+				<direction2>is_provided_by</direction2>
+			</verb>
+			<verb>
+				<direction1>manages</direction1>
+				<direction2>is_managed_by</direction2>
+			</verb>
+ 		</associative_fact_type>
+		<categorization_fact_type>
+			<verb>
+				<direction1>is_a</direction1>
+				<direction2>generalizes</direction2>
+			</verb>
+			<verb>
+				<direction1>specializes</direction1>
+				<direction2>generalizes</direction2>
+			</verb>
+			<verb>
+				<direction1>is_category_of</direction1>
+				<direction2>is_of_category</direction2>
+			</verb>
+		</categorization_fact_type>
+		<is_property_of_fact_type>
+			<verb>
+				<direction1>has</direction1>
+				<direction2>is_property_of</direction2>
+			</verb>
+		</is_property_of_fact_type>
+		<partitive_fact_type>
+			<verb>
+				<direction1>includes</direction1>
+				<direction2>is_included_in</direction2>
+			</verb>
+		</partitive_fact_type>
+		<is_role_of_fact_type>
+			<verb>
+				<direction1>ranges_over</direction1>
+				<direction2>has_role</direction2>
+			</verb>
+		</is_role_of_fact_type>
+	</factTypes>
+	<keywords>
+		<definition objectType="1" factType="1" individualConcept="1">
+			<title>Definition</title>
+		</definition>
+		<source objectType="1" factType="1" individualConcept="1">
+			<title>Source</title>
+		</source>
+		<dictionary_basis objectType="1" factType="1" individualConcept="1">
+			<title>Dictionary_basis</title>
+		</dictionary_basis>
+		<general_concept objectType="1" individualConcept="1">
+			<title>General_concept</title>
+			<additional>categorization_scheme;integer;number;text</additional>
+		</general_concept>
+		<concept_type objectType="1" factType="1" individualConcept="1">
+			<title>Concept_type</title>
+			<additional>individual_concept;general_concept;object_type;categorization_scheme;categorization_type;role;associative_fact_type;categorization_fact_type;partitive_fact_type;is_role_of_fact_type</additional>
+		</concept_type>
+		<symbol_type objectType="1" factType="1" individualConcept="1">
+			<title>Symbol_type</title>
+		</symbol_type>
+		<necessity objectType="1" factType="1" individualConcept="1">
+			<title>Necessity</title>
+			<additional>categorization_scheme for general_concept ( enter general_concept ) that subdivides ( enter concept ) by ( enter categorization_type );is included in ( enter segmentation or categorization_scheme )</additional>
+		</necessity>
+		<possibility objectType="1" factType="1" individualConcept="1">
+			<title>Possibility</title>
+		</possibility>
+		<reference_scheme objectType="1" factType="1" individualConcept="1">
+			<title>Reference_scheme</title>
+		</reference_scheme>
+		<note objectType="1" factType="1" individualConcept="1">
+			<title>Note</title>
+		</note>
+		<example objectType="1" factType="1" individualConcept="1">
+			<title>Example</title>
+		</example>
+		<synonym objectType="1" factType="0" individualConcept="0">
+			<title>Synonym</title>
+		</synonym>
+		<synonymous_form objectType="0" factType="1" individualConcept="0">
+			<title>Synonymous_form</title>
+		</synonymous_form>
+		<see objectType="1" factType="1" individualConcept="1">
+			<title>See</title>
+		</see>
+		<qualifier objectType="1" factType="1" individualConcept="1">
+			<title>Qualifier</title>
+		</qualifier>
+		<qualifier objectType="1" factType="1" individualConcept="1">
+			<title>Preferred</title>
+		</qualifier>
+	</keywords>
+	<ruleTemplates>
+		<tpl1>
+			<title>Operational rule</title>
+			<description>Description rule1.</description>
+			<body>It is obligatory that [?f].</body>
+		</tpl1>
+		<tpl2>
+			<title>Operational rule</title>
+			<description>Description rule2.</description>
+			<body>It is obligatory that [?f].</body>
+		</tpl2>
+	</ruleTemplates>
+</language>

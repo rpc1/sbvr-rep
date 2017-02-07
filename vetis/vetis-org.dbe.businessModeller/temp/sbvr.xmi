@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="cp1257"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:SBVR="http://www.eclipse.org/sbvr/1.0.0/SBVR">
+  <SBVR:Vocabulary xmi:id="_-9MWMNxGEd6nW9jSGfs9jA"/>
+  <SBVR:Name xmi:id="_-9MWMdxGEd6nW9jSGfs9jA" meaning="_-9MWM9xGEd6nW9jSGfs9jA" expression="_-9MWMtxGEd6nW9jSGfs9jA" preferred="true" refersTo="_-9MWMNxGEd6nW9jSGfs9jA"/>
+  <SBVR:Text xmi:id="_-9MWMtxGEd6nW9jSGfs9jA" value="new_file"/>
+  <SBVR:IndividualConcept xmi:id="_-9MWM9xGEd6nW9jSGfs9jA" instance="_-9MWMNxGEd6nW9jSGfs9jA"/>
+  <SBVR:Language xmi:id="_-9MWNNxGEd6nW9jSGfs9jA"/>
+  <SBVR:Name xmi:id="_-9MWNdxGEd6nW9jSGfs9jA" meaning="_-9MWNtxGEd6nW9jSGfs9jA" expression="_-9MWN9xGEd6nW9jSGfs9jA" preferred="true" refersTo="_-9MWNNxGEd6nW9jSGfs9jA"/>
+  <SBVR:IndividualConcept xmi:id="_-9MWNtxGEd6nW9jSGfs9jA" instance="_-9MWNNxGEd6nW9jSGfs9jA"/>
+  <SBVR:Text xmi:id="_-9MWN9xGEd6nW9jSGfs9jA" value="English"/>
+  <SBVR:URI xmi:id="_-9MWONxGEd6nW9jSGfs9jA" value="http://www.loc.gov/standards/iso639-2/php/English_list.php"/>
+  <SBVR:ConceptualSchema xmi:id="_-9MWOdxGEd6nW9jSGfs9jA">
+    <concept xmi:type="SBVR:ObjectType" xmi:id="_-9MWOtxGEd6nW9jSGfs9jA"/>
+    <concept xmi:type="SBVR:ObjectType" xmi:id="_-9MWO9xGEd6nW9jSGfs9jA"/>
+    <concept xmi:type="SBVR:AssociativeFactType" xmi:id="_-9MWPNxGEd6nW9jSGfs9jA">
+      <role xmi:id="_-9MWPdxGEd6nW9jSGfs9jA" objectType="_-9MWOtxGEd6nW9jSGfs9jA"/>
+      <role xmi:id="_-9MWPtxGEd6nW9jSGfs9jA" objectType="_-9MWO9xGEd6nW9jSGfs9jA"/>
+    </concept>
+    <concept xmi:type="SBVR:ObjectType" xmi:id="_-9MWP9xGEd6nW9jSGfs9jA"/>
+  </SBVR:ConceptualSchema>
+  <SBVR:FactModel xmi:id="_-9MWQNxGEd6nW9jSGfs9jA" conceptualSchema="_-9MWOdxGEd6nW9jSGfs9jA"/>
+  <SBVR:VocabularyNamespace xmi:id="_-9MWQdxGEd6nW9jSGfs9jA" designation="_-9MWMdxGEd6nW9jSGfs9jA _-9MWNdxGEd6nW9jSGfs9jA _-9MWQ9xGEd6nW9jSGfs9jA _-9MWRNxGEd6nW9jSGfs9jA _-9MWRtxGEd6nW9jSGfs9jA _-9MWR9xGEd6nW9jSGfs9jA _-9MWSNxGEd6nW9jSGfs9jA _-9MWTNxGEd6nW9jSGfs9jA _-9MWT9xGEd6nW9jSGfs9jA _-9MWUNxGEd6nW9jSGfs9jA" uri="_-9MWONxGEd6nW9jSGfs9jA" language="_-9MWNNxGEd6nW9jSGfs9jA"/>
+  <SBVR:Text xmi:id="_-9MWQtxGEd6nW9jSGfs9jA" value="hotel"/>
+  <SBVR:Designation xmi:id="_-9MWQ9xGEd6nW9jSGfs9jA" meaning="_-9MWOtxGEd6nW9jSGfs9jA" expression="_-9MWQtxGEd6nW9jSGfs9jA"/>
+  <SBVR:Term xmi:id="_-9MWRNxGEd6nW9jSGfs9jA" meaning="_-9MWOtxGEd6nW9jSGfs9jA" expression="_-9MWQtxGEd6nW9jSGfs9jA" preferred="true"/>
+  <SBVR:Text xmi:id="_-9MWRdxGEd6nW9jSGfs9jA" value="sauna"/>
+  <SBVR:Designation xmi:id="_-9MWRtxGEd6nW9jSGfs9jA" meaning="_-9MWO9xGEd6nW9jSGfs9jA" expression="_-9MWRdxGEd6nW9jSGfs9jA"/>
+  <SBVR:Term xmi:id="_-9MWR9xGEd6nW9jSGfs9jA" meaning="_-9MWO9xGEd6nW9jSGfs9jA" expression="_-9MWRdxGEd6nW9jSGfs9jA" preferred="true"/>
+  <SBVR:Designation xmi:id="_-9MWSNxGEd6nW9jSGfs9jA" meaning="_-9MWPNxGEd6nW9jSGfs9jA" expression="_-9MWS9xGEd6nW9jSGfs9jA"/>
+  <SBVR:SententialForm xmi:id="_-9MWSdxGEd6nW9jSGfs9jA" meaning="_-9MWPNxGEd6nW9jSGfs9jA" expression="_-9MWTtxGEd6nW9jSGfs9jA" designation="_-9MWTNxGEd6nW9jSGfs9jA _-9MWT9xGEd6nW9jSGfs9jA"/>
+  <SBVR:PositiveInteger xmi:id="_-9MWStxGEd6nW9jSGfs9jA" value="1"/>
+  <SBVR:Text xmi:id="_-9MWS9xGEd6nW9jSGfs9jA" value="provides"/>
+  <SBVR:Placeholder xmi:id="_-9MWTNxGEd6nW9jSGfs9jA" meaning="_-9MWPdxGEd6nW9jSGfs9jA" expression="_-9MWQtxGEd6nW9jSGfs9jA" isAtStartingCharacterPosition="_-9MWStxGEd6nW9jSGfs9jA"/>
+  <SBVR:PositiveInteger xmi:id="_-9MWTdxGEd6nW9jSGfs9jA" value="16"/>
+  <SBVR:Text xmi:id="_-9MWTtxGEd6nW9jSGfs9jA" value="hotel provides sauna"/>
+  <SBVR:Placeholder xmi:id="_-9MWT9xGEd6nW9jSGfs9jA" meaning="_-9MWPtxGEd6nW9jSGfs9jA" expression="_-9MWRdxGEd6nW9jSGfs9jA" isAtStartingCharacterPosition="_-9MWTdxGEd6nW9jSGfs9jA"/>
+  <SBVR:FactSymbol xmi:id="_-9MWUNxGEd6nW9jSGfs9jA" meaning="_-9MWPNxGEd6nW9jSGfs9jA" expression="_-9MWS9xGEd6nW9jSGfs9jA" preferred="true"/>
+  <SBVR:Text xmi:id="_-9MWUdxGEd6nW9jSGfs9jA" value="null"/>
+  <SBVR:Designation xmi:id="_-9MWUtxGEd6nW9jSGfs9jA" meaning="_-9MWP9xGEd6nW9jSGfs9jA" expression="_-9MWUdxGEd6nW9jSGfs9jA"/>
+  <SBVR:Term xmi:id="_-9MWU9xGEd6nW9jSGfs9jA" meaning="_-9MWP9xGEd6nW9jSGfs9jA" expression="_-9MWUdxGEd6nW9jSGfs9jA" preferred="true"/>
+  <SBVR:AtomicFormulation xmi:id="_--iaANxGEd6nW9jSGfs9jA" factType="_-9MWPNxGEd6nW9jSGfs9jA"/>
+  <SBVR:NecessityFormulation xmi:id="_--iaAdxGEd6nW9jSGfs9jA" proposition="_--iaBdxGEd6nW9jSGfs9jA" logicalFormulation="_--iaAtxGEd6nW9jSGfs9jA"/>
+  <SBVR:UniversalQuantification xmi:id="_--iaAtxGEd6nW9jSGfs9jA" variable="_--iaCNxGEd6nW9jSGfs9jA" scopeFormulation="_--iaANxGEd6nW9jSGfs9jA"/>
+  <SBVR:RoleBinding xmi:id="_--iaA9xGEd6nW9jSGfs9jA" atomicFormulation="_--iaANxGEd6nW9jSGfs9jA" bindableTarget="_--iaCNxGEd6nW9jSGfs9jA" factTypeRole="_-9MWPdxGEd6nW9jSGfs9jA"/>
+  <SBVR:RoleBinding xmi:id="_--iaBNxGEd6nW9jSGfs9jA" atomicFormulation="_--iaANxGEd6nW9jSGfs9jA" bindableTarget="_--iaCdxGEd6nW9jSGfs9jA" factTypeRole="_-9MWPtxGEd6nW9jSGfs9jA"/>
+  <SBVR:Proposition xmi:id="_--iaBdxGEd6nW9jSGfs9jA"/>
+  <SBVR:Statement xmi:id="_--iaBtxGEd6nW9jSGfs9jA" meaning="_--iaBdxGEd6nW9jSGfs9jA" expression="_--iaB9xGEd6nW9jSGfs9jA"/>
+  <SBVR:Text xmi:id="_--iaB9xGEd6nW9jSGfs9jA" value="It is necessary that hotel provides sauna."/>
+  <SBVR:Variable xmi:id="_--iaCNxGEd6nW9jSGfs9jA" factTypeRole="_-9MWPdxGEd6nW9jSGfs9jA"/>
+  <SBVR:Variable xmi:id="_--iaCdxGEd6nW9jSGfs9jA" factTypeRole="_-9MWPtxGEd6nW9jSGfs9jA"/>
+</xmi:XMI>

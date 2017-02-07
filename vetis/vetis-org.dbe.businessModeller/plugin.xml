@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin>
+   <extension id="marker" name="BSBR Messages"
+         point="org.eclipse.core.resources.markers">
+      <super type="org.eclipse.core.resources.problemmarker"/>
+      <super type="org.eclipse.core.resources.textmarker"/>
+      <persistent value="true"/>
+   </extension>
+
+   <extension
+         point="org.eclipse.ui.editors">
+      <editor
+            class="org.dbe.businessModeller.vocabulary.ui.editors.VocabularyMainEditor"
+            contributorClass="org.dbe.businessModeller.vocabulary.ui.editors.VocabularyMainEditorContributor"
+            extensions="voc,voc_head"
+            icon="icons/icon_vocabulary.gif"
+            id="org.dbe.businessModeller.vocabulary.ui.editors.VocabularyMainEditor"
+            name="Vocabulary Editor">
+      </editor>
+   </extension>
+   
+      <extension
+         point="org.eclipse.ui.editors">
+      <editor
+            class="org.dbe.businessModeller.ruleset.ui.editors.RulesetMainEditor"
+            contributorClass="org.dbe.businessModeller.ruleset.ui.editors.RulesetMainEditorContributor"
+            extensions="rules"
+            icon="icons/icon_ruleset.gif"
+            id="org.dbe.businessModeller.ruleset.ui.editors.RulesetMainEditor"
+            name="Ruleset Editor">
+      </editor>
+   </extension>
+   
+   
+   <extension
+         point="org.eclipse.ui.newWizards">
+      <category
+            name="Business Modeller"
+            id="org.dbe.businessModeller.ui">
+      </category>
+      <wizard
+            name="Business Modeller file set"
+            icon="icons/icon_fileset.gif"
+            category="org.dbe.businessModeller.ui"
+            class="org.dbe.businessModeller.ui.wizards.BusinessModellerNewWizard"
+            id="org.dbe.businessModeller.ui.wizards.BusinessModellerNewWizard">
+      </wizard>
+      <wizard
+            name="SBVR Ruleset"
+            icon="icons/icon_ruleset.gif"
+            category="org.dbe.businessModeller.ui"
+            class="org.dbe.businessModeller.ruleset.ui.wizards.RulesetNewWizard"
+            id="org.dbe.businessModeller.ruleset.ui.wizards.RulesetNewWizard">
+      </wizard>
+      <wizard
+            name="SBVR Vocabulary"
+            icon="icons/icon_vocabulary.gif"
+            category="org.dbe.businessModeller.ui"
+            class="org.dbe.businessModeller.vocabulary.ui.wizards.VocabularyNewWizard"
+            id="org.dbe.businessModeller.vocabulary.ui.wizards.VocabularyNewWizard">
+      </wizard>
+   </extension>
+</plugin>

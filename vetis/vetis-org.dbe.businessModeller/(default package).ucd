@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="(default package)" size="766,521" id="" metadata="uml2-1.0" initialized="true" scrolledX="-5" scrolledY="192" tag="1000" key="3230303530373138206F72672E6462652E627573696E6573734D6F64656C6C65722F6465746F6D6D617369">
+  <children xsi:type="editmodel:PackageEditModel" name="org.dbe.businessModeller.enterprise" location="0,-20" size="900,513" id="org.dbe.businessModeller.enterprise">
+    <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@children.5/@sourceConnections.1 //@children.0/@children.12/@sourceConnections.0 //@children.0/@children.4/@sourceConnections.1" name="Designation" location="16,308" size="139,68" id="org.dbe.businessModeller.enterprise/Designation" runTimeClassModel="signifier">
+      <children xsi:type="editmodel:CompartmentEditModel" size="189,64">
+        <children xsi:type="editmodel:AttributeEditModel" name="signifier" id="org.dbe.businessModeller.enterprise/Designation#signifier"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="fontStyle" id="org.dbe.businessModeller.enterprise/FontStyle@fontStyle+org.dbe.businessModeller.enterprise/Designation@designation1|org.dbe.businessModeller.enterprise/FontStyle#fontStyle"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="org.dbe.businessModeller.enterprise/PrimaryRepresentation&lt;-org.dbe.businessModeller.enterprise/Designation" source="//@children.0/@children.0" target="//@children.0/@children.1" targetEnd="//@children.0/@children.0/@sourceConnections.0/@children.1" sourceEnd="//@children.0/@children.0/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+        <children xsi:type="editmodel:AssociationEndEditModel" location="94,0" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="44,26"/>
+      </sourceConnections>
+      <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="org.dbe.businessModeller.enterprise/FontStyle@designation1+org.dbe.businessModeller.enterprise/Designation@fontStyle" source="//@children.0/@children.0" target="//@children.0/@children.6" targetEnd="//@children.0/@children.0/@sourceConnections.1/@children.1" label="//@children.0/@children.0/@sourceConnections.1/@children.2" sourceEnd="//@children.0/@children.0/@sourceConnections.1/@children.0" connectionRouterKind="Manhattan">
+        <children xsi:type="editmodel:AssociationEndEditModel" name="designation1" location="139,54" id="org.dbe.businessModeller.enterprise/FontStyle@fontStyle+org.dbe.businessModeller.enterprise/Designation@designation1|org.dbe.businessModeller.enterprise/Designation#designation1" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" name="fontStyle" location="0,13" id="org.dbe.businessModeller.enterprise/FontStyle@fontStyle+org.dbe.businessModeller.enterprise/Designation@designation1|org.dbe.businessModeller.enterprise/FontStyle#fontStyle" multiplicityLabel="//@children.0/@children.0/@sourceConnections.1/@children.1/@children.1" roleLabel="//@children.0/@children.0/@sourceConnections.1/@children.1/@children.0" navigable="true">
+          <children xsi:type="editmodel:LabelEditModel" name=" - fontStyle" location="523,321" size="53,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+          <children xsi:type="editmodel:LabelEditModel" name="0..1" location="558,349" size="18,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        </children>
+        <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      </sourceConnections>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@children.0/@sourceConnections.0 //@children.0/@children.13/@sourceConnections.0" name="PrimaryRepresentation" location="66,49" size="166,26" id="org.dbe.businessModeller.enterprise/PrimaryRepresentation" runTimeClassModel="">
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@children.3/@sourceConnections.0 //@children.0/@children.4/@sourceConnections.0 //@children.0/@children.5/@sourceConnections.0 //@children.0/@children.11/@sourceConnections.0" name="VocabularyEntry" location="357,47" size="251,84" id="org.dbe.businessModeller.enterprise/VocabularyEntry" runTimeClassModel="primaryRepresentation,definition,source">
+      <children xsi:type="editmodel:CompartmentEditModel" size="231,48">
+        <children xsi:type="editmodel:AttributeEditModel" name="definition" location="10,35" id="org.dbe.businessModeller.enterprise/VocabularyEntry#definition"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="primaryRepresentation" id="org.dbe.businessModeller.enterprise/VocabularyEntry#primaryRepresentation"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="source" id="org.dbe.businessModeller.enterprise/VocabularyEntry#source"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" name="FactType" location="327,168" size="78,52" id="org.dbe.businessModeller.enterprise/FactType" runTimeClassModel="">
+      <children xsi:type="editmodel:CompartmentEditModel" size="53,48">
+        <children xsi:type="editmodel:AttributeEditModel" name="foE" id="org.dbe.businessModeller.enterprise/FoE@foE+org.dbe.businessModeller.enterprise/FactType@factType|org.dbe.businessModeller.enterprise/FoE#foE"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="org.dbe.businessModeller.enterprise/VocabularyEntry&lt;-org.dbe.businessModeller.enterprise/FactType" source="//@children.0/@children.3" target="//@children.0/@children.2" targetEnd="//@children.0/@children.3/@sourceConnections.0/@children.1" sourceEnd="//@children.0/@children.3/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+        <children xsi:type="editmodel:AssociationEndEditModel" location="53,0" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="23,84"/>
+      </sourceConnections>
+      <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="org.dbe.businessModeller.enterprise/FoE@factType+org.dbe.businessModeller.enterprise/FactType@foE2" source="//@children.0/@children.3" target="//@children.0/@children.13" targetEnd="//@children.0/@children.3/@sourceConnections.1/@children.1" label="//@children.0/@children.3/@sourceConnections.1/@children.2" sourceEnd="//@children.0/@children.3/@sourceConnections.1/@children.0" connectionRouterKind="Manhattan">
+        <children xsi:type="editmodel:AssociationEndEditModel" name="factType" location="0,9" id="org.dbe.businessModeller.enterprise/FoE@foE2+org.dbe.businessModeller.enterprise/FactType@factType|org.dbe.businessModeller.enterprise/FactType#factType" attachSource="true" roleLabel="//@children.0/@children.3/@sourceConnections.1/@children.0/@children.0">
+          <children xsi:type="editmodel:LabelEditModel" location="320,136" size="0,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        </children>
+        <children xsi:type="editmodel:AssociationEndEditModel" name="foE2" location="85,39" id="org.dbe.businessModeller.enterprise/FoE@foE2+org.dbe.businessModeller.enterprise/FactType@factType|org.dbe.businessModeller.enterprise/FoE#foE2" multiplicityLabel="//@children.0/@children.3/@sourceConnections.1/@children.1/@children.1" roleLabel="//@children.0/@children.3/@sourceConnections.1/@children.1/@children.0" navigable="true">
+          <children xsi:type="editmodel:LabelEditModel" name=" - foE2" location="233,136" size="32,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+          <children xsi:type="editmodel:LabelEditModel" name="0..1" location="233,164" size="18,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        </children>
+        <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      </sourceConnections>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" name="IndivudualConcept" location="412,169" size="144,52" id="org.dbe.businessModeller.enterprise/IndivudualConcept" runTimeClassModel="">
+      <children xsi:type="editmodel:CompartmentEditModel" size="130,32">
+        <children xsi:type="editmodel:AttributeEditModel" name="designation" id="org.dbe.businessModeller.enterprise/Designation@designation+org.dbe.businessModeller.enterprise/IndivudualConcept@indivudualConcept|org.dbe.businessModeller.enterprise/Designation#designation"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="org.dbe.businessModeller.enterprise/VocabularyEntry&lt;-org.dbe.businessModeller.enterprise/IndivudualConcept" source="//@children.0/@children.4" target="//@children.0/@children.2" targetEnd="//@children.0/@children.4/@sourceConnections.0/@children.1" sourceEnd="//@children.0/@children.4/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+        <children xsi:type="editmodel:AssociationEndEditModel" location="71,0" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="126,84"/>
+      </sourceConnections>
+      <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="org.dbe.businessModeller.enterprise/Designation@indivudualConcept+org.dbe.businessModeller.enterprise/IndivudualConcept@designation1" source="//@children.0/@children.4" target="//@children.0/@children.0" targetEnd="//@children.0/@children.4/@sourceConnections.1/@children.1" label="//@children.0/@children.4/@sourceConnections.1/@children.2" sourceEnd="//@children.0/@children.4/@sourceConnections.1/@children.0" connectionRouterKind="Manhattan">
+        <children xsi:type="editmodel:AssociationEndEditModel" name="indivudualConcept" location="10,52" id="org.dbe.businessModeller.enterprise/Designation@designation1+org.dbe.businessModeller.enterprise/IndivudualConcept@indivudualConcept|org.dbe.businessModeller.enterprise/IndivudualConcept#indivudualConcept" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" name="designation1" location="139,10" id="org.dbe.businessModeller.enterprise/Designation@designation1+org.dbe.businessModeller.enterprise/IndivudualConcept@indivudualConcept|org.dbe.businessModeller.enterprise/Designation#designation1" multiplicityLabel="//@children.0/@children.4/@sourceConnections.1/@children.1/@children.1" roleLabel="//@children.0/@children.4/@sourceConnections.1/@children.1/@children.0" navigable="true">
+          <children xsi:type="editmodel:LabelEditModel" name=" - designation1" location="162,305" size="71,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+          <children xsi:type="editmodel:LabelEditModel" name="0..1" location="162,277" size="18,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        </children>
+        <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      </sourceConnections>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" name="ObjectType" location="563,165" size="144,52" id="org.dbe.businessModeller.enterprise/ObjectType" runTimeClassModel="">
+      <children xsi:type="editmodel:CompartmentEditModel" size="124,16">
+        <children xsi:type="editmodel:AttributeEditModel" name="designation" id="org.dbe.businessModeller.enterprise/Designation@designation+org.dbe.businessModeller.enterprise/ObjectType@objectType|org.dbe.businessModeller.enterprise/Designation#designation"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="org.dbe.businessModeller.enterprise/VocabularyEntry&lt;-org.dbe.businessModeller.enterprise/ObjectType" source="//@children.0/@children.5" target="//@children.0/@children.2" targetEnd="//@children.0/@children.5/@sourceConnections.0/@children.1" sourceEnd="//@children.0/@children.5/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+        <children xsi:type="editmodel:AssociationEndEditModel" location="22,0" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="228,84"/>
+      </sourceConnections>
+      <sourceConnections xsi:type="editmodel:AssociationEditModel" id="org.dbe.businessModeller.enterprise/Designation@designation+org.dbe.businessModeller.enterprise/ObjectType@objectType" source="//@children.0/@children.5" target="//@children.0/@children.0" targetEnd="//@children.0/@children.5/@sourceConnections.1/@children.1" label="//@children.0/@children.5/@sourceConnections.1/@children.2" sourceEnd="//@children.0/@children.5/@sourceConnections.1/@children.0" connectionRouterKind="Manhattan">
+        <children xsi:type="editmodel:AssociationEndEditModel" name="objectType" location="20,52" id="org.dbe.businessModeller.enterprise/Designation@designation+org.dbe.businessModeller.enterprise/ObjectType@objectType|org.dbe.businessModeller.enterprise/ObjectType#objectType" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" name="designation" location="137,27" id="org.dbe.businessModeller.enterprise/Designation@designation+org.dbe.businessModeller.enterprise/ObjectType@objectType|org.dbe.businessModeller.enterprise/Designation#designation" multiplicityLabel="//@children.0/@children.5/@sourceConnections.1/@children.1/@children.1" roleLabel="//@children.0/@children.5/@sourceConnections.1/@children.1/@children.0" navigable="true">
+          <children xsi:type="editmodel:LabelEditModel" name=" - designation" location="189,322" size="65,14" fontInfo="Arial-8-0" automaticRelocationAllowed="false" locationOnWireFromSource="148.0" distanceFromWire="15.0" anchorKind="LastPart"/>
+          <children xsi:type="editmodel:LabelEditModel" name="0..1" location="162,294" size="18,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        </children>
+        <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      </sourceConnections>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@children.7/@sourceConnections.0 //@children.0/@children.8/@sourceConnections.0 //@children.0/@children.9/@sourceConnections.0 //@children.0/@children.10/@sourceConnections.0 //@children.0/@children.0/@sourceConnections.1" name="FontStyle" location="583,349" size="80,26" id="org.dbe.businessModeller.enterprise/FontStyle" runTimeClassModel="">
+      <children xsi:type="editmodel:CompartmentEditModel" size="124,16"/>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" name="Term" location="522,402" size="53,26" id="org.dbe.businessModeller.enterprise/Term" runTimeClassModel="">
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="org.dbe.businessModeller.enterprise/FontStyle&lt;-org.dbe.businessModeller.enterprise/Term" source="//@children.0/@children.7" target="//@children.0/@children.6" targetEnd="//@children.0/@children.7/@sourceConnections.0/@children.1" sourceEnd="//@children.0/@children.7/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+        <children xsi:type="editmodel:AssociationEndEditModel" location="44,0" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="22,26"/>
+      </sourceConnections>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" name="Name" location="667,407" size="57,26" id="org.dbe.businessModeller.enterprise/Name" runTimeClassModel="">
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="org.dbe.businessModeller.enterprise/FontStyle&lt;-org.dbe.businessModeller.enterprise/Name" source="//@children.0/@children.8" target="//@children.0/@children.6" targetEnd="//@children.0/@children.8/@sourceConnections.0/@children.1" sourceEnd="//@children.0/@children.8/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+        <children xsi:type="editmodel:AssociationEndEditModel" location="12,0" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="56,26"/>
+      </sourceConnections>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" name="Keyword" location="630,434" size="76,26" id="org.dbe.businessModeller.enterprise/Keyword" runTimeClassModel="">
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="org.dbe.businessModeller.enterprise/FontStyle&lt;-org.dbe.businessModeller.enterprise/Keyword" source="//@children.0/@children.9" target="//@children.0/@children.6" targetEnd="//@children.0/@children.9/@sourceConnections.0/@children.1" sourceEnd="//@children.0/@children.9/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+        <children xsi:type="editmodel:AssociationEndEditModel" location="16,0" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="63,26"/>
+      </sourceConnections>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" name="Verb" location="573,438" size="50,26" id="org.dbe.businessModeller.enterprise/Verb" runTimeClassModel="">
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="org.dbe.businessModeller.enterprise/FontStyle&lt;-org.dbe.businessModeller.enterprise/Verb" source="//@children.0/@children.10" target="//@children.0/@children.6" targetEnd="//@children.0/@children.10/@sourceConnections.0/@children.1" sourceEnd="//@children.0/@children.10/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+        <children xsi:type="editmodel:AssociationEndEditModel" location="29,0" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="19,26"/>
+      </sourceConnections>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" name="Vocabulary" location="679,51" size="201,148" id="org.dbe.businessModeller.enterprise/Vocabulary" runTimeClassModel="description,includedVocabulary,note,speechCommunity,language,name">
+      <children xsi:type="editmodel:CompartmentEditModel" size="181,112">
+        <children xsi:type="editmodel:AttributeEditModel" name="description" id="org.dbe.businessModeller.enterprise/Vocabulary#description"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="speechCommunity" id="org.dbe.businessModeller.enterprise/Vocabulary#speechCommunity"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="language" id="org.dbe.businessModeller.enterprise/Vocabulary#language"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="includedVocabulary" id="org.dbe.businessModeller.enterprise/Vocabulary#includedVocabulary"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="note" id="org.dbe.businessModeller.enterprise/Vocabulary#note"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="name" id="org.dbe.businessModeller.enterprise/Vocabulary#name"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="org.dbe.businessModeller.enterprise/VocabularyEntry@vocabularyEntries+org.dbe.businessModeller.enterprise/Vocabulary@vocabulary" source="//@children.0/@children.11" target="//@children.0/@children.2" targetEnd="//@children.0/@children.11/@sourceConnections.0/@children.1" label="//@children.0/@children.11/@sourceConnections.0/@children.2" sourceEnd="//@children.0/@children.11/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan">
+        <children xsi:type="editmodel:AssociationEndEditModel" name="vocabulary" location="0,39" id="org.dbe.businessModeller.enterprise/VocabularyEntry@vocabularyEntries+org.dbe.businessModeller.enterprise/Vocabulary@vocabulary|org.dbe.businessModeller.enterprise/Vocabulary#vocabulary" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" name="vocabularyEntries" location="251,43" id="org.dbe.businessModeller.enterprise/VocabularyEntry@vocabularyEntries+org.dbe.businessModeller.enterprise/Vocabulary@vocabulary|org.dbe.businessModeller.enterprise/VocabularyEntry#vocabularyEntries" multiplicityLabel="//@children.0/@children.11/@sourceConnections.0/@children.1/@children.1" roleLabel="//@children.0/@children.11/@sourceConnections.0/@children.1/@children.0" navigable="true">
+          <children xsi:type="editmodel:LabelEditModel" name=" - vocabularyEntries" location="615,49" size="97,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+          <children xsi:type="editmodel:LabelEditModel" name="*" location="615,77" size="4,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        </children>
+        <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      </sourceConnections>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@children.13/@sourceConnections.1" name="FoEPart" location="121,208" size="140,68" id="org.dbe.businessModeller.enterprise/FoEPart" runTimeClassModel="startingCharPosition,type">
+      <children xsi:type="editmodel:CompartmentEditModel" size="120,48">
+        <children xsi:type="editmodel:AttributeEditModel" name="startingCharPosition" id="org.dbe.businessModeller.enterprise/FoEPart#startingCharPosition"/>
+        <children xsi:type="editmodel:AttributeEditModel" name="type" id="org.dbe.businessModeller.enterprise/FoEPart#type"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="org.dbe.businessModeller.enterprise/Designation@foEPart1+org.dbe.businessModeller.enterprise/FoEPart@designation1" source="//@children.0/@children.12" target="//@children.0/@children.0" targetEnd="//@children.0/@children.12/@sourceConnections.0/@children.1" label="//@children.0/@children.12/@sourceConnections.0/@children.2" sourceEnd="//@children.0/@children.12/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan">
+        <children xsi:type="editmodel:AssociationEndEditModel" name="foEPart1" location="16,68" id="org.dbe.businessModeller.enterprise/Designation@designation1+org.dbe.businessModeller.enterprise/FoEPart@foEPart1|org.dbe.businessModeller.enterprise/FoEPart#foEPart1" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" name="designation1" location="121,0" id="org.dbe.businessModeller.enterprise/Designation@designation1+org.dbe.businessModeller.enterprise/FoEPart@foEPart1|org.dbe.businessModeller.enterprise/Designation#designation1" multiplicityLabel="//@children.0/@children.12/@sourceConnections.0/@children.1/@children.1" roleLabel="//@children.0/@children.12/@sourceConnections.0/@children.1/@children.0" navigable="true">
+          <children xsi:type="editmodel:LabelEditModel" name=" - designation1" location="144,267" size="71,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+          <children xsi:type="editmodel:LabelEditModel" name="0..1" location="112,267" size="18,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        </children>
+        <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      </sourceConnections>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+    </children>
+    <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@children.3/@sourceConnections.1" name="FoE" location="141,138" size="85,49" id="org.dbe.businessModeller.enterprise/FoE" runTimeClassModel="">
+      <children xsi:type="editmodel:CompartmentEditModel">
+        <children xsi:type="editmodel:AttributeEditModel" name="foEPart" id="org.dbe.businessModeller.enterprise/FoEPart@foEPart+org.dbe.businessModeller.enterprise/FoE@foE|org.dbe.businessModeller.enterprise/FoEPart#foEPart"/>
+      </children>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <children xsi:type="editmodel:CompartmentEditModel"/>
+      <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="org.dbe.businessModeller.enterprise/PrimaryRepresentation&lt;-org.dbe.businessModeller.enterprise/FoE" source="//@children.0/@children.13" target="//@children.0/@children.1" targetEnd="//@children.0/@children.13/@sourceConnections.0/@children.1" sourceEnd="//@children.0/@children.13/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+        <children xsi:type="editmodel:AssociationEndEditModel" location="42,0" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" location="117,26"/>
+      </sourceConnections>
+      <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="org.dbe.businessModeller.enterprise/FoEPart@foE+org.dbe.businessModeller.enterprise/FoE@foEPart" source="//@children.0/@children.13" target="//@children.0/@children.12" targetEnd="//@children.0/@children.13/@sourceConnections.1/@children.1" label="//@children.0/@children.13/@sourceConnections.1/@children.2" sourceEnd="//@children.0/@children.13/@sourceConnections.1/@children.0" connectionRouterKind="Manhattan">
+        <children xsi:type="editmodel:AssociationEndEditModel" name="foE" location="42,49" id="org.dbe.businessModeller.enterprise/FoEPart@foEPart+org.dbe.businessModeller.enterprise/FoE@foE|org.dbe.businessModeller.enterprise/FoE#foE" attachSource="true"/>
+        <children xsi:type="editmodel:AssociationEndEditModel" name="foEPart" location="62,0" id="org.dbe.businessModeller.enterprise/FoEPart@foEPart+org.dbe.businessModeller.enterprise/FoE@foE|org.dbe.businessModeller.enterprise/FoEPart#foEPart" multiplicityLabel="//@children.0/@children.13/@sourceConnections.1/@children.1/@children.1" roleLabel="//@children.0/@children.13/@sourceConnections.1/@children.1/@children.0" navigable="true">
+          <children xsi:type="editmodel:LabelEditModel" name=" - foEPart" location="190,167" size="45,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+          <children xsi:type="editmodel:LabelEditModel" name="1..*" location="160,167" size="16,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        </children>
+        <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      </sourceConnections>
+      <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+    </children>
+    <packagePreferences xsi:type="editmodel:UMLClassDiagramPackagePreference" showStereotype="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="wireOptions=1" autoName="false"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="10,10" gridOrigin="0,0" rulerUnit="pixel">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showInterfaceStereotype="true" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>
